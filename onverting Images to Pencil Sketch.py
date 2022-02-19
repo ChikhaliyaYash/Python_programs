@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 plt.style.use('seaborn')
 
-img = cv2.imread("00100sPORTRAIT_00100_BURST20211114163538223_COVER.jpg")
+img = cv2.imread("(upload your image).jpg")
 img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 plt.figure(figsize=(8,8))
 plt.imshow(img)
