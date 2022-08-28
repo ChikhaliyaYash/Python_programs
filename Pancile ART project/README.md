@@ -8,8 +8,6 @@ Before writing any code let’s walk through some of the steps that will be used
 
 Step 1. Find an image that we want to convert into a pencil sketch. I am going to use the image of a Labrador puppy (one of the most popular dogs in the world).
 
-
-puppy.jpg
 Step 2: Read in the Red, Blue, Green (RBG) image and then convert it to a gray scale image. This effectively makes the image a classic “black and white” photo. This will be our “gray scale image”.
 
 Step 3: We are going to invert the “gray scaled image” also known as getting the image negative, this will be our “inverted gray scale image”. Inversion can be used to enhance details. The Logical NOT or invert is an operator which takes a binary or gray level image as input and produces its photographic negative, i.e. dark areas in the input image become light and light areas become dark. -homepages
@@ -42,8 +40,8 @@ Import the library.
 import cv2
 Next we need to get the file location and the file name. The file location may look something like C:/Users/<username>/Desktop/. The image file name that I am using is puppy.jpg.
 
-img_location = '<file_location>'
-filename = 'puppy.jpg'
+img_location = '<https://miro.medium.com/max/875/1*TYTYW7i6faLRLCLXNmzZDg.png>'
+filename = ''
 Now, it’s time to read in the image.
 
 img = cv2.imread(img_location+filename)
